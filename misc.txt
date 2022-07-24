@@ -1,0 +1,14 @@
+TODO:
+-make CSS look nice
+
+
+Qoute locations:
+4:32-4:35: "hmmmm meow?"
+1:26-1:27: "wohhh we can do this!"
+1:30-1:31: "nice going!"
+
+CREDITS:
+Music notes sounds: https://www.youtube.com/watch?v=thwsv3LU4Ys
+Music notes animation: https://www.youtube.com/watch?v=-Ltzr3qt_Q0
+Morgana sounds: https://www.youtube.com/watch?v=JmKmYVuJTS0
+sprites: https://www.spriters-resource.com/ 

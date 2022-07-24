@@ -1,0 +1,28 @@
+{
+    "name": "Oh We Can Do This",
+    "version": "0.5",
+    "manifest_version": 3,
+    "icons": {
+        "16": "assets/imgs/morgana_16.png",
+        "48": "assets/imgs/morgana_48.png",
+        "128": "assets/imgs/morgana_128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "mona.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "den.html",
+        "default_title": "Thieves Den"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "options_page": "leblanc.html"
+}
