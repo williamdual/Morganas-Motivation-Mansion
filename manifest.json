@@ -21,8 +21,5 @@
         "default_popup": "den.html",
         "default_title": "Thieves Den"
     },
-    "permissions": [
-        "storage"
-    ],
     "options_page": "leblanc.html"
 }
