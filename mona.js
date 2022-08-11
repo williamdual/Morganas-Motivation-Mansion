@@ -22,6 +22,9 @@ sounds = [monaSound, noteSound]
 document.addEventListener("DOMContentLoaded", function () { //webpage listening
     vol_bar.value = 70;
     updateVol();
+
+    generateBackground();
+
     let morgana = document.getElementById("morgana")
     morgana.addEventListener("click", ohWe)
     morgana.style.backgroundImage = "url(" + morgona_face + ")";
@@ -63,6 +66,40 @@ document.addEventListener("DOMContentLoaded", function () { //webpage listening
             }
 
         }
+
+    }
+
+    function generateBackground() {
+        let theme = "none"
+        let bg = document.getElementsByClassName("background_container")
+        let bgIcons = document.getElementsByClassName("background_logo")
+        let path = "none"
+        let text = document.getElementById("title");
+        chrome.storage.sync.get({
+            Theme: "P5"
+        }, function (items) {
+            theme = items.Theme;
+
+            if (theme == "P3") {
+                bg[0].style.backgroundColor = "#009ACD";
+                path = 'url("assets/imgs/SEES_Gun.svg")';
+                text.style.color = "#FA9125";
+            }
+            else if (theme == "P4") {
+                bg[0].style.backgroundColor = '#ffe52c';
+                path = 'url("assets/imgs/TV_Portal.svg")';
+                text.style.color = "#4B25FA";
+            }
+            else {
+                bg[0].style.backgroundColor = "#D92323";
+                path = 'url("assets/imgs/Arsene_Hat.svg")';
+                text.style.color = "#25FA62";
+            }
+            for (let i = 0; i < bgIcons.length; i++) {
+                bgIcons[i].style.backgroundImage = path;
+            }
+        });
+
 
     }
 })

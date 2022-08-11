@@ -1,12 +1,16 @@
 {
     "name": "Oh We Can Do This",
-    "version": "0.5",
+    "version": "0.7",
     "manifest_version": 3,
+    "description": "A test takers best friend",
     "icons": {
-        "16": "assets/imgs/morgana_16.png",
-        "48": "assets/imgs/morgana_48.png",
-        "128": "assets/imgs/morgana_128.png"
+        "16": "assets/imgs/morgan_icon.png",
+        "48": "assets/imgs/morgan_icon.png",
+        "128": "assets/imgs/morgan_icon.png"
     },
+    "permissions": [
+        "storage"
+    ],
     "content_scripts": [
         {
             "matches": [
@@ -21,5 +25,5 @@
         "default_popup": "den.html",
         "default_title": "Thieves Den"
     },
-    "options_page": "leblanc.html"
+    "options_page": "velvetRoom.html"
 }
