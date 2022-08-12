@@ -25,6 +25,15 @@ h1 {
 
 #title {
     text-align: center;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-family: bubbleGum;
+}
+
+@font-face {
+    font-family: bubbleGum;
+    src: url("assets/fonts/BUBBS___.TTF");
 }
 
 .check-descripter {

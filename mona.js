@@ -83,17 +83,17 @@ document.addEventListener("DOMContentLoaded", function () { //webpage listening
             if (theme == "P3") {
                 bg[0].style.backgroundColor = "#009ACD";
                 path = 'url("assets/imgs/SEES_Gun.svg")';
-                text.style.color = "#FA9125";
+                //text.style.color = "#FA9125";
             }
             else if (theme == "P4") {
                 bg[0].style.backgroundColor = '#ffe52c';
                 path = 'url("assets/imgs/TV_Portal.svg")';
-                text.style.color = "#4B25FA";
+                //text.style.color = "#4B25FA";
             }
             else {
                 bg[0].style.backgroundColor = "#D92323";
                 path = 'url("assets/imgs/Arsene_Hat.svg")';
-                text.style.color = "#25FA62";
+                //text.style.color = "#25FA62";
             }
             for (let i = 0; i < bgIcons.length; i++) {
                 bgIcons[i].style.backgroundImage = path;
