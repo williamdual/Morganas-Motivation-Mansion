@@ -1,6 +1,6 @@
 {
-    "name": "Oh We Can Do This",
-    "version": "0.7",
+    "name": "Persona - Morgana's Motivation Mansion",
+    "version": "1.0",
     "manifest_version": 3,
     "description": "A test takers best friend",
     "icons": {
@@ -25,5 +25,6 @@
         "default_popup": "den.html",
         "default_title": "Thieves Den"
     },
-    "options_page": "velvetRoom.html"
+    "options_page": "velvetRoom.html",
+    "minimum_chrome_version": "43.0"
 }

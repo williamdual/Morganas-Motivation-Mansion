@@ -29,6 +29,7 @@ h1 {
     color: rgb(255, 255, 255);
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
     font-family: bubbleGum;
+    margin-bottom: 20px;
 }
 
 @font-face {
@@ -47,6 +48,7 @@ input {
 #slider-div {
     width: 75%;
     margin: auto;
+    margin-top: 20px;
 }
 
 #volume-slider {

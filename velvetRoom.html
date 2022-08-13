@@ -6,22 +6,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="igor.css" />
     <title>Options</title>
 </head>
 
-<body style="background-color:#28258D">
+<body>
     <h1>Velvet Room</h1>
 
     <h2>Game Theme</h2>
-    <input type="radio" id="P3" name="theme" value="P3" />
-    <label for="p3">Persona 3</label><br>
-    <input type="radio" id="P4" name="theme" value="P4" />
-    <label for="p3">Persona 4</label><br>
-    <input type="radio" id="P5" name="theme" value="P5" />
-    <label for="p3">Persona 5</label><br>
+    <div class="choice-box">
+        <div class="select-field">
+            <input type="radio" id="P3" name="theme" value="P3" />
+            <label for="p3">Persona 3</label>
+        </div>
+        <div class="select-field">
+            <input type="radio" id="P4" name="theme" value="P4" />
+            <label for="p3">Persona 4</label>
+        </div>
+        <div class="select-field">
+            <input type="radio" id="P5" name="theme" value="P5" />
+            <label for="p3">Persona 5</label>
+        </div>
+    </div>
 
-    <button id="save">Save</button>
-    <script src="options.js"></script>
+    <h2>Default Volume</h2>
+    <div id="slider-div">
+        <input type="range" id="volume-slider" name="volume-slider" />
+    </div>
+    <div class="b-div">
+        <button id="save">Save</button>
+    </div>
+    <script src="da'at.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,69 @@
+body {
+    background-color: #28258D;
+    background: radial-gradient(circle, rgba(21, 29, 166, 1) 0%, rgba(40, 37, 141, 1) 49%, rgba(21, 21, 91, 1) 100%);
+}
+
+h1,
+h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 2%;
+}
+
+h2 {
+    margin-top: 3%;
+}
+
+.select-field,
+.b-div {
+    margin: 4px auto;
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-box {
+    border: 2px solid black;
+    padding: 0.1% 0.05%;
+    margin: 0 45%;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+}
+
+label {
+    float: right;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#slider-div {
+    width: 7.5%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+#volume-slider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.b-div {
+    margin-top: 5%;
+}
+
+#save {
+    margin: auto;
+    align-self: center;
+    font-size: 14;
+}
