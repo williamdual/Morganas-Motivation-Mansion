@@ -26,5 +26,5 @@
         "default_title": "Thieves Den"
     },
     "options_page": "velvetRoom.html",
-    "minimum_chrome_version": "43.0"
+    "minimum_chrome_version": "88.0"
 }
