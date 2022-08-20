@@ -5,7 +5,7 @@
 <ul>
 <li>Lil guy to congratulate you once a task is done</li> 
 <li>Loud noise to reward you for learning things</li>
-<li>Color Schemes for persona 3, 4, and 5! (right click on the extention and select "Options"</li>
+<li>Color Schemes for persona 3, 4, and 5! (right click on the extention and select "Options")</li>
 </ul>
 <h1>📜 Credits</h1>
 <ul>
